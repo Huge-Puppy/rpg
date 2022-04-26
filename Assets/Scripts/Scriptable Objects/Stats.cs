@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum StatusCondition {None, Asleep, Paralyzed, Slow}
-public class Effect {
+public enum StatusCondition { None, Asleep, Paralyzed, Slow }
+public class Effect
+{
+    // TODO: Implement
 
 }
 
@@ -12,14 +14,16 @@ public class Stats : ScriptableObject
 {
     private void OnEnable() => hideFlags = HideFlags.DontUnloadUnusedAsset;
     public PlayerType playerType = PlayerType.Fighter;
-    public IntValue level;
-    public FloatValue strength;
-    public FloatValue agility;
-    public FloatValue magicPower;
-    public IntValue gold;
-    public IntValue xp;
-    public FloatValue maxMagic;
-    public FloatValue maxHealth;
+    public IntVariable level;
+    public FloatVariable strength;
+    public FloatVariable agility;
+    public FloatVariable magicPower;
+    public IntVariable gold;
+    public IntVariable xp;
+    public FloatVariable currentMagic;
+    public FloatVariable currentHealth;
+    public FloatVariable maxMagic;
+    public FloatVariable maxHealth;
     public StatusCondition condition;
     public Effect effect;
 }
