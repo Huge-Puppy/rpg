@@ -7,7 +7,7 @@ public enum PlayerType { Fighter, Wizard, Rogue, Barbarian }
 public class Player : MonoBehaviour
 {
 
-    [SerializeField] float speed = 3f;
+    [SerializeField] float speed = 2f;
     Rigidbody2D myRigidbody;
     Vector3 change;
     public Animator animator;
@@ -57,8 +57,8 @@ public class Player : MonoBehaviour
             }
             else
             {
-                Time.timeScale = 0;
-                pauseMenu.SetActive(true);
+                //Time.timeScale = 0;
+                //pauseMenu.SetActive(true);
             }
         }
 

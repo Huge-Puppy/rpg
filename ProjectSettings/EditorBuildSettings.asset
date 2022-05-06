@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: 6643d93e1f541e643a6e33b3b2a9c650
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/IsaacSampleScene.unity
+    guid: a4622ba2a1407f44fb47c92f518ab7c5
   - enabled: 1
     path: Assets/Scenes/Battle.unity
     guid: 811b2cf00de4ef94e9be17c2d6c3c2d4
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

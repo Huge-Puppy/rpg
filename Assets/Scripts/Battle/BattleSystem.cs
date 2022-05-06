@@ -113,7 +113,11 @@ public class BattleSystem : MonoBehaviour
     {
         state = BattleState.Busy;
         float damage = spellBox.CastSpell(selectedSpellIndex);
-        if (damage < 0.0) yield break;
+        if (damage < 0.0)
+        {
+            state = BattleState.PlayerSpell;
+            yield break;
+        }
         spellBox.DisableSpellSelector();
         yield return dialogBox.TypeDialog($"{damage} damage done.");
         yield return new WaitForSecondsRealtime(textPause);

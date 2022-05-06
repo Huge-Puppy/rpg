@@ -21,4 +21,4 @@ MonoBehaviour:
   maxHealth: 3
   xp: 5
   gold: 3
-  sprite: {fileID: 731360934464320444, guid: c3f41435745db9d41923866ca32bd5f8, type: 3}
+  sprite: {fileID: 21300000, guid: f1b0cd4c4c5878545bbc60866a0433af, type: 3}

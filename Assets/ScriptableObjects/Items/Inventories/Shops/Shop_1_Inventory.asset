@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Shop_1_Inventory
   m_EditorClassIdentifier: 
   myInventory:
-  - {fileID: 11400000, guid: c3f2e41eeff0b624581b21d30fd5251a, type: 2}
+  - {fileID: 11400000, guid: ad6faafb436b0274283efbc8df2b5a2f, type: 2}
