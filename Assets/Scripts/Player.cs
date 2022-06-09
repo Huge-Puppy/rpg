@@ -48,19 +48,19 @@ public class Player : MonoBehaviour
         //playerPosition.initialValue.x = transform.position.x;
         //playerPosition.initialValue.y = transform.position.y;
 
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            if (pauseMenu.activeInHierarchy)
-            {
-                pauseMenu.SetActive(false);
-                Time.timeScale = 1;
-            }
-            else
-            {
-                //Time.timeScale = 0;
-                //pauseMenu.SetActive(true);
-            }
-        }
+        // if (Input.GetKeyDown(KeyCode.Return))
+        // {
+            // if (pauseMenu.activeInHierarchy)
+            // {
+                // pauseMenu.SetActive(false);
+                // Time.timeScale = 1;
+            // }
+            // else
+            // {
+                // Time.timeScale = 0;
+                // pauseMenu.SetActive(true);
+            // }
+        // }
 
     }
 
